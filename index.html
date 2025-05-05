@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="music-player">
+    <div class="album-art">
+      <img id="cover" src="wall.jpg" alt="Album Cover">
+    </div>
+    <h2 id="song-title">Lovers rock - TV Girl</h2>
+    <audio id="audio" src="song.mp3"></audio>
+    <div class="controls">
+      <button id="prev">⏮️</button>
+      <button id="playPause">▶️</button>
+      <button id="next">⏭️</button>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
